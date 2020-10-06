@@ -35,8 +35,8 @@ public class SwaggerConfig {
 	private Info apiInfo() {
 		return new Info().title("Backend Spring - DEMO API").description("DEMO API").version("v1")
 				.license(new License().name("Apache 2.0").url("http://springdoc.org"))
-				.contact(new Contact().name("Nícolas Wojcichoski").url("https://github.com/nicolasdsw")
-						.email("nicolas.dsw@gmail.com"));
+				.contact(new Contact().name("Igor Bezerra").url("https://github.com/igortdt")
+						.email("igortdt@gmail.com"));
 	}
 
 	private SecurityScheme getSecurityScheme() {
